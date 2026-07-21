@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="65da1e5f470a8b502a28a464116d4339" extends="task" label="DOT社内申請" max_length="40" name="x_1447708_dottctmp_dot_applicant" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" label="申請種別" mandatory="true" max_length="40" name="app_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="勤怠関連申請" value="100"/>
+                <element inactive_on_update="false" label="経費申請" value="200"/>
+                <element inactive_on_update="false" label="教育支援金申請" language="ja" value="300"/>
+                <element inactive_on_update="false" label="経費申請" language="ja" value="200"/>
+                <element inactive_on_update="false" label="教育支援金申請" value="300"/>
+                <element inactive_on_update="false" label="勤怠関連申請" language="ja" value="100"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="app_type" table="x_1447708_dottctmp_dot_applicant" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>app_type</element>
+            <name>x_1447708_dottctmp_dot_applicant</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>masashi ozawa dd</sys_created_by>
+            <sys_created_on>2026-07-19 10:12:42</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>app_type</sys_name>
+            <sys_package display_value="DOTTCTMP" source="x_1447708_dottctmp">521a355b47068b502a28a464116d43e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DOTTCTMP">521a355b47068b502a28a464116d43e6</sys_scope>
+            <sys_update_name>sys_choice_x_1447708_dottctmp_dot_applicant_app_type</sys_update_name>
+            <sys_updated_by>masashi ozawa dd</sys_updated_by>
+            <sys_updated_on>2026-07-19 10:12:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>app_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>勤怠関連申請</label>
+            <language>en</language>
+            <name>x_1447708_dottctmp_dot_applicant</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>masashi ozawa dd</sys_created_by>
+            <sys_created_on>2026-07-19 10:12:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>masashi ozawa dd</sys_updated_by>
+            <sys_updated_on>2026-07-19 10:12:42</sys_updated_on>
+            <value>100</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>app_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>勤怠関連申請</label>
+            <language>ja</language>
+            <name>x_1447708_dottctmp_dot_applicant</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>masashi ozawa dd</sys_created_by>
+            <sys_created_on>2026-07-19 10:12:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>masashi ozawa dd</sys_updated_by>
+            <sys_updated_on>2026-07-19 10:12:47</sys_updated_on>
+            <value>100</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>app_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>経費申請</label>
+            <language>en</language>
+            <name>x_1447708_dottctmp_dot_applicant</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>masashi ozawa dd</sys_created_by>
+            <sys_created_on>2026-07-19 10:13:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>masashi ozawa dd</sys_updated_by>
+            <sys_updated_on>2026-07-19 10:13:25</sys_updated_on>
+            <value>200</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>app_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>経費申請</label>
+            <language>ja</language>
+            <name>x_1447708_dottctmp_dot_applicant</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>masashi ozawa dd</sys_created_by>
+            <sys_created_on>2026-07-19 10:13:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>masashi ozawa dd</sys_updated_by>
+            <sys_updated_on>2026-07-19 10:13:21</sys_updated_on>
+            <value>200</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>app_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>教育支援金申請</label>
+            <language>ja</language>
+            <name>x_1447708_dottctmp_dot_applicant</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>masashi ozawa dd</sys_created_by>
+            <sys_created_on>2026-07-19 10:14:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>masashi ozawa dd</sys_updated_by>
+            <sys_updated_on>2026-07-19 10:14:03</sys_updated_on>
+            <value>300</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>app_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>教育支援金申請</label>
+            <language>en</language>
+            <name>x_1447708_dottctmp_dot_applicant</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>masashi ozawa dd</sys_created_by>
+            <sys_created_on>2026-07-19 10:13:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>masashi ozawa dd</sys_updated_by>
+            <sys_updated_on>2026-07-19 10:13:59</sys_updated_on>
+            <value>300</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="申請区分">afc7faaf47ca0f502a28a464116d4385</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>masashi ozawa dd</sys_created_by>
+        <sys_created_on>2026-07-19 09:49:49</sys_created_on>
+        <sys_id>d42a36e3470e0f502a28a464116d438f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>有給休暇（時間単位）</sys_name>
+        <sys_package display_value="DOTTCTMP" source="x_1447708_dottctmp">521a355b47068b502a28a464116d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DOTTCTMP">521a355b47068b502a28a464116d43e6</sys_scope>
+        <sys_update_name>question_choice_d42a36e3470e0f502a28a464116d438f</sys_update_name>
+        <sys_updated_by>masashi ozawa dd</sys_updated_by>
+        <sys_updated_on>2026-07-19 13:03:02</sys_updated_on>
+        <text>有給休暇（時間単位）</text>
+        <value>有給休暇（時間単位）</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=d42a36e3470e0f502a28a464116d438f"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>d42a36e3470e0f502a28a464116d438f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>masashi ozawa dd</sys_created_by>
+        <sys_created_on>2026-07-19 09:49:49</sys_created_on>
+        <sys_id>d42a76e3470e0f502a28a464116d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>masashi ozawa dd</sys_updated_by>
+        <sys_updated_on>2026-07-19 09:49:49</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>d42a36e3470e0f502a28a464116d438f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>masashi ozawa dd</sys_created_by>
+        <sys_created_on>2026-07-19 09:49:49</sys_created_on>
+        <sys_id>9c2a76e3470e0f502a28a464116d43a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>masashi ozawa dd</sys_updated_by>
+        <sys_updated_on>2026-07-19 09:49:49</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

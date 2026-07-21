@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1447708_dottctmp.admin" name="x_1447708_dottctmp.admin">a98a469b47868b502a28a464116d4315</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>masashi ozawa</sys_created_by>
+        <sys_created_on>2026-07-18 11:44:49</sys_created_on>
+        <sys_id>47daca5747868b502a28a464116d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a98a469b47868b502a28a464116d4315</sys_name>
+        <sys_package display_value="DOTTCTMP" source="x_1447708_dottctmp">521a355b47068b502a28a464116d43e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DOTTCTMP">521a355b47068b502a28a464116d43e6</sys_scope>
+        <sys_update_name>sys_embedded_help_role_47daca5747868b502a28a464116d4340</sys_update_name>
+        <sys_updated_by>masashi ozawa</sys_updated_by>
+        <sys_updated_on>2026-07-18 11:44:49</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

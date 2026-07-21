@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="DOT社内申請" language="en" table="x_1447708_dottctmp_dot_applicant">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>DOT社内申請</label>
+            <language>en</language>
+            <name>x_1447708_dottctmp_dot_applicant</name>
+            <plural>DOT社内申請</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>masashi ozawa dd</sys_created_by>
+            <sys_created_on>2026-07-18 12:54:37</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>DOT社内申請</sys_name>
+            <sys_package display_value="DOTTCTMP" source="x_1447708_dottctmp">521a355b47068b502a28a464116d43e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DOTTCTMP">521a355b47068b502a28a464116d43e6</sys_scope>
+            <sys_update_name>sys_documentation_x_1447708_dottctmp_dot_applicant__en</sys_update_name>
+            <sys_updated_by>masashi ozawa dd</sys_updated_by>
+            <sys_updated_on>2026-07-18 13:00:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

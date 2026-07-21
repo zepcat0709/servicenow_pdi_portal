@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1447708_dottctmp.DOTTCTMPUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>DOTTCTMPUtils</description>
+        <mobile_callable>false</mobile_callable>
+        <name>DOTTCTMPUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var DOTTCTMPUtils = Class.create();
+DOTTCTMPUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	// 過去の申請情報を取得
+	getPastAppInfo: function () {
+		var appSysId = this.getParameter("sysparm_sysId");
+		var gr = new GlideRecord("x_1447708_dottctmp_dot_applicant");
+		var questions = [
+			"work_app_type",
+			"reason",
+			"is_coordinated",
+			"target_date",
+			"start_time",
+			"end_time",
+			"worked_day",
+			"start_working_time",
+			"end_working_time",
+			"worked_day",
+			"replacement_holiday",
+			"remarks",
+			"approver"
+		];
+		var pastAppInfo = {};
+		if (gr.get(appSysId)) {
+			for (var question of questions) {
+				gs.info(question);
+				pastAppInfo[question] = gr.variables[question].toString();
+			}
+		}
+
+		return JSON.stringify(pastAppInfo);
+	},
+	type: 'DOTTCTMPUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>masashi ozawa dd</sys_created_by>
+        <sys_created_on>2026-07-19 12:54:02</sys_created_on>
+        <sys_id>322467a747424f502a28a464116d43d9</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>DOTTCTMPUtils</sys_name>
+        <sys_package display_value="DOTTCTMP" source="x_1447708_dottctmp">521a355b47068b502a28a464116d43e6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="DOTTCTMP">521a355b47068b502a28a464116d43e6</sys_scope>
+        <sys_update_name>sys_script_include_322467a747424f502a28a464116d43d9</sys_update_name>
+        <sys_updated_by>masashi ozawa dd</sys_updated_by>
+        <sys_updated_on>2026-07-20 02:47:58</sys_updated_on>
+    </sys_script_include>
+</record_update>
